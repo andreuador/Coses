@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 4: Objects and localStorage</title>
+        <link rel="stylesheet" href="assets/style.css">
+        <script src="scripts/task4.js"></script>
+    </head>
+    <body>
+        <h1>Task 4: Objects and localStorage</h1>
+        <h2>My todo list</h2>
+        <h3>New task</h3>
+        <div>
+            <div class="form-control">
+                <label for="task">
+                    Task:
+                </label>
+                <textarea
+                    id="task"
+                    name="task"
+                    cols="30"
+                    rows="5"
+                ></textarea>
+            </div>
+            <div class="form-control">
+                <label for="priority">
+                    Priority:
+                    <select id="priority" name="priority">
+                        <option value="1">Low</option>
+                        <option value="2">Intermediate</option>
+                        <option value="3">High</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-control">
+                <button id="btn_create">Create task</button>
+            </div>
+        </div>
+        <hr>
+        <div id="todolist">
+            <p>Sample task list</p>
+            <ul>
+                <li>Study Markup languages (priority: 1).</li>
+                <li>&#9989; Study Developing environments (priority: 2). </li>
+                <li>Play Clash Royal (priority: 3).</li>
+            </ul>
+        </div>
+    </body>
+</html>
