@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task 2: Input elements, DOM manipulation and Math object</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="scripts/task2.js"></script>
+</head>
+
+<body>
+    <h1>Task 2: Input elements, DOM manipulation and Math object</h1>
+    <div>
+        <div>
+            <label for="number_1">
+                Number 1
+                <input id="number_1" type="number" name="number" value="3">
+            </label>
+        </div>
+        <div>
+            <label for="number_2">
+                Number 2
+                <input id="number_2" type="number" name="number" value="3">
+            </label>
+        </div>
+        <p><strong>Operations</strong></p>
+        <label for="type_1">
+            <input id="type_1" type="radio" name="type" value="sum" checked="checked" /> Sum
+        </label>
+        <label for="type_2">
+            <input id="type_2" type="radio" name="type" value="product" /> Product
+        </label>
+        <label for="type_3">
+            <input id="type_3" type="radio" name="type" value="division" /> Division
+        </label>
+        <div class="form-widget">
+            <button class="form-control" id="btn_operate">Operate</button>
+        </div>
+    </div>
+    <hr>
+    <div id="result">
+        <p>Sample result with default options</p>
+        <p>3 + 3 = 6</p>
+    </div>
+</body>
+
+</html>
